@@ -2,4 +2,7 @@
 
 This project shows a solution for storage management between Kubernetes and Storage products.
 
-We, represent ZTE coporation, are in charge of this project. And meanwhile, welcome everybody to contributing this project.
+Welcome everybody to contributing this project.
+
+[CSI](http://blog.kubernetes.io/2018/01/introducing-container-storage-interface.html) will be taken into consideration.
+
