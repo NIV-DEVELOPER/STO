@@ -4,8 +4,6 @@ This project shows a solution for storage management between Kubernetes and Stor
 
 Welcome everybody to contributing this project.
 
-[CSI](http://blog.kubernetes.io/2018/01/introducing-container-storage-interface.html) will be taken into consideration.
-
 
 Our vision:
 
@@ -17,7 +15,7 @@ Our vision:
 
 1. Tenant management
 
-1. CSI
+1. CSI(http://blog.kubernetes.io/2018/01/introducing-container-storage-interface.html) and FlexVolume
 
 1. Tenant resource quota
 
