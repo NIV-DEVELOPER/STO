@@ -15,7 +15,7 @@ Our vision:
 
 1. Tenant management
 
-1. CSI(http://blog.kubernetes.io/2018/01/introducing-container-storage-interface.html) and FlexVolume
+1. [CSI](http://blog.kubernetes.io/2018/01/introducing-container-storage-interface.html) and FlexVolume
 
 1. Tenant resource quota
 
