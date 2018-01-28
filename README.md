@@ -5,7 +5,7 @@ This project shows a solution for storage management between Kubernetes and Stor
 Welcome everybody to contributing this project.
 
 # Architecture(draft)
-
+![](arch.PNG)
 
 # Our vision:
 
