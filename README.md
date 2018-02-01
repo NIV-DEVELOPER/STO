@@ -1,4 +1,5 @@
 # STO
+[![Build Status](https://travis-ci.org/cofyc/kubelet-exporter.svg?branch=master)](https://travis-ci.org/NIV-DEVELOPER/STO)
 
 This project shows a solution for storage management between Kubernetes and Storage products.
 
