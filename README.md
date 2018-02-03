@@ -7,6 +7,9 @@ Welcome everybody to contributing this project.
 
 # Architecture(draft)
 ![](arch.PNG)
+The architecure is been discussing and modifying. When it's ready, we will release it.
+
+
 
 # Our vision:
 
