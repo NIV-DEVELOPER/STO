@@ -9,7 +9,31 @@ Welcome everybody to contributing this project.
 ![](arch.PNG)
 The architecure is been discussing and modifying. When it's ready, we will release it.
 
+# preface
 
+CSI（Container Storage Interface）从kubernetes 1.9版本开始引入，用于在容器和共享存储之间建立一套标准的存储访问接口。
+
+Kubernetes提供一些Sidecar（辅助）容器。
+
+1. External-attacher
+
+监听VolumeAttachment对象并触发ControllerPublish和ControllerUnPublish操作的容器。
+
+1. External-provisioner
+
+监听PVC对象并触发对CSI Endpoint的CreateVolume和DeleteVolume操作。
+
+1. Driver-register
+
+使用Kubelet注册CSI驱动程序的容器，并将NodeId添加到Node的annotation中。
+
+动态存储
+
+集群管理员无需手动创建PV，而是通过对storageclass的设置，对后端存储进行描述。此时PVC也需要对存储类型进行声明。如果PVC的class设置为空，则PVC被精致实用动态创建PV。
+
+静态存储
+
+集群管理员手动创建PV，同时创建后端存储的特性。
 
 # Our vision:
 
